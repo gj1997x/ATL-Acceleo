@@ -9,3 +9,13 @@ test_uml_code_generation: contains src-gen, Library UML model
 ## ATL (Atlas Transformation Language)
 
 Its a language development within the M2M (Model to Model). Its main purpose is to transform models from one domain model to another. It specify how model data in one format can be transformed into another format and this plays a significant role in MDE (Model Driven Engineering).
+
+### Key Features:
+
+1. Declarative Nature: The transformation can be written in a declarative way and constructors are available when needed.
+2. Rule Based: For the transformation in ATL there are defined by rules. These rules specify how the data can be transformed from the model to the target model.
+3. More Transformations: ATL transformations can produce different type of other transformation.
+
+### Useability:
+
+1. The main use of ATL is data integration and software migration such that different representations of data in one model can be converted to another model. This way of conversion allow developers to design models in high levels.
