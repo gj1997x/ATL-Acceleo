@@ -19,3 +19,5 @@ Its a language development within the M2M (Model to Model). Its main purpose is 
 ### Useability:
 
 1. The main use of ATL is data integration and software migration such that different representations of data in one model can be converted to another model. This way of conversion allow developers to design models in high levels.
+
+My scenario is about Library2Users such that the source model is Library and the target model is Users. The ATL for Library2Users shows the rules and helpers used such that to transform Library model to Users model. Sample-IN.xmi is used to create instances of the classes in the model that will be used in the conversion. Furthermore, the sample-OUT.xmi is used to display the output of the conversion using ATL.
