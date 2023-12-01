@@ -25,4 +25,4 @@ My scenario is about Library2Users such that the source model is Library and the
 
 |      Library Meta Model (Source Model)       |                   Users Meta Model (Target Model)                              |
 | ----------------- | ------------------------------------------------------------------ |
-| <img width="593" alt="Userstory" src="https://github.com/gj1997x/Software-Requirements/assets/148683770/65266ad8-22d9-4c72-89ab-902dc447a113"> |<img width="832" alt="Userstory2" src="https://github.com/gj1997x/Software-Requirements/assets/148683770/978ad02c-aab7-43d4-a253-52710fe359a4">
+| <img width="335" alt="Library Source Meta Model - 1" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/75208c2f-b86f-4247-9eeb-690e7bdf752c"> | <img width="241" alt="Library Target Meta Model - 2" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/5505d8a9-bac8-4910-b1cb-a49dfcf071bc">
