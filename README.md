@@ -55,4 +55,8 @@ In this task, my scenario was also about library system where I have provided th
 
 <img width="647" alt="RunConfig(GenerateMTL) - 2" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/f9086d6c-af7b-41e5-9b02-10419deb2a59">
 
-### Generated Java Code - generate.mtl
+### Generated Java Code:
+|      sample-IN.xmi (Input)       |              sample-OUT.xmi (Output)                 |
+| ----------------- | ------------------------------------------------------------------ |
+|<img width="399" alt="JavaFile-GenerateMTL - 3" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/6588d172-c030-4600-8751-817e1288af15">
+  | <img width="541" alt="JavaFile-GenerateMTL - 4" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/270e45f7-0343-4133-abb7-7be132f9f422">
