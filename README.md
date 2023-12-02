@@ -71,3 +71,9 @@ In this task, my scenario was also about library system where I have provided th
 ### UML2Beans:
 <img width="476" alt="UML2Beans- 8" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/567a7396-0fc8-47d0-b7a9-124cdc3e7e15">
 
+### UML2Beans:
+<img width="163" alt="SRC-GEN" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/f68539b9-d2a8-4db8-aaea-366586d3f95e">
+
+### UI Launcher:
+<img width="221" alt="UIn launcher- 9" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/b7b41894-cf91-4e38-98e1-53b16cd754c7">
+
