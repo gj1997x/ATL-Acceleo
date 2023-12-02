@@ -61,3 +61,13 @@ In this task, my scenario was also about library system where I have provided th
 |<img width="399" alt="JavaFile-GenerateMTL - 3" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/6588d172-c030-4600-8751-817e1288af15">| <img width="541" alt="JavaFile-GenerateMTL - 4" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/270e45f7-0343-4133-abb7-7be132f9f422">
 
 ### User Code Block:
+|      generate.mtl File       |              JAVA generated code                 |
+| ----------------- | ------------------------------------------------------------------ |
+|<img width="358" alt="UserCodeBlock - 5" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/3ad5b0d0-8200-4d40-a49b-5f4b77184f4a">| <img width="290" alt="UserCodeBlock (JAVA) - 6" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/d154b701-fd92-4a5c-b01f-6da218409c69">
+
+### JAVA Service Wrappers:
+<img width="460" alt="ServiceWrapper - 7" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/49a68a81-d327-42b9-a5d5-0793b51f5552">
+
+### UML2Beans:
+<img width="476" alt="UML2Beans- 8" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/567a7396-0fc8-47d0-b7a9-124cdc3e7e15">
+
