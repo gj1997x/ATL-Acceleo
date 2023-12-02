@@ -43,7 +43,7 @@ Furthermore, using Acceleo for code generation brings alot of benefits such as i
 
 ## Task 2:
 
-In this task, my scenario was also about library system where I have provided the UML model of the scenario and in the generate.mtl it contains the code and rules of the model such that it create a JAVA beans for the classes of the UML model. As soon as this Acceleo file is configured and run, it will produce the correct JAVA beans of the model. In addition, in the generation.mtl, there where some code that specify the user blocks such that a manual code could be written by the user depending on the purpose. Moreover, JAVA services wrappers can be used in order to specify the stereotype of the class and depedning on the type a bean can be created (In the experiment the Service wrapper can be found which is UML2Services). The UMLToBeans contains the main code to run the generat.mtl and create perform the code generation of the model. Lastly, Acceleo UI was created and run on the Runtime such that the code generation can be tested on the given model and this file is named as test_uml_code_generation_Runtime. In the screenshots below, I will demostrate all of the main points that was stated earlier.
+In this task, my scenario was also about library system where I have provided the UML model of the scenario and in the generate.mtl it contains the code and rules of the model such that it create a JAVA beans for the classes of the UML model. As soon as this Acceleo file is configured and run, it will produce the correct JAVA beans of the model. In addition, in the generation.mtl, there where some code that specify the user code blocks such that a manual code could be written by the user depending on the purpose. Moreover, JAVA services wrappers can be used in order to specify the stereotype of the class and depedning on the type a bean can be created (In the experiment the Service wrapper can be found which is UML2Services). The UMLToBeans contains the main code to run the generat.mtl and create perform the code generation of the model. Lastly, Acceleo UI was created and run on the Runtime such that the code generation can be tested on the given model and this file is named as test_uml_code_generation_Runtime. In the screenshots below, I will demostrate all of the main points that was stated earlier.
 
 ### UML Model - Library:
 
@@ -59,3 +59,5 @@ In this task, my scenario was also about library system where I have provided th
 |      Book Class       |              LibraryItem Class                 |
 | ----------------- | ------------------------------------------------------------------ |
 |<img width="399" alt="JavaFile-GenerateMTL - 3" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/6588d172-c030-4600-8751-817e1288af15">| <img width="541" alt="JavaFile-GenerateMTL - 4" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/270e45f7-0343-4133-abb7-7be132f9f422">
+
+### User Code Block:
