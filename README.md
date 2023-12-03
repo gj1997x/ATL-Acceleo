@@ -4,6 +4,8 @@ By: Ghanim Alsuwaidi (厄尼姆)
 Student ID: LS2321206
 
 #### Files:
+
+There are the compressed file and the non compressed file but they are the same.
 Task 1: Contains ATL transformation from Library meta model to Users meta model.
 
 Task 2: 
