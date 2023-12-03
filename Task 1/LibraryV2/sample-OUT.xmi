@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="Users">
+  <Staff fullName="Ghanim" id="127"/>
+  <Staff fullName="Admin" id="17"/>
+  <Staff fullName="Ben" id="1267"/>
+  <Staff fullName="Abdulla" id="178"/>
+  <Customer fullName="Ali" id="167"/>
+  <Customer fullName="Mohammed" id="244"/>
+  <Customer fullName="Mansour" id="255"/>
+  <CatalogItem title="Learning Physics" isbn="ISBN1267"/>
+  <CatalogItem title="Theory of Matrix" isbn="ISBN1119"/>
+  <ReferenceItem title="C# for beginner Handbook"/>
+  <ReferenceItem title="C# for beginner Magazine"/>
+</xmi:XMI>

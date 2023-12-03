@@ -1,0 +1,48 @@
+module Library2Users;
+
+-- @path Library=/Library2Users/Library.ecore
+-- @path Users=/Library2Users/Users.ecore
+
+create OUT : Users from IN : Library;
+
+helper context Library!Publication def: isReference(): Boolean =
+	self.title.matches('.*Reference $|.*Guide$|.*Handbook$|.*Magazine$');
+
+rule Librarian2Staff {  
+	from
+		s : Library!Librarian  
+	to
+		t : Users!Staff ( 
+			fullName <- s.name,
+			id <- s.id
+		)
+}
+
+rule Member2Customer {
+	from
+		m : Library!Patron
+	to 
+		t : Users!Customer (
+			fullName <- m.name,
+			id <- m.id
+		)
+}
+
+rule Publication2CatalogItem {
+	from 
+		p : Library!Publication (not p.isReference())
+	to
+		t : Users!CatalogItem (
+			title <- p.title,
+			isbn <-p.id
+		)
+}
+
+rule Publication2ReferenceItem {
+	from
+		r : Library!Publication (r.isReference())
+	to 
+		t : Users!ReferenceItem (
+			title <- r.title	
+		)
+}
