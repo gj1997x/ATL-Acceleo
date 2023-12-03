@@ -1,0 +1,54 @@
+[comment encoding = UTF-8 /]
+[module generate('http://www.eclipse.org/uml2/5.0.0/UML')]
+
+[import org::rm2pt::acceleo::sample::services::uml2Services/]
+
+[template public generateElement(aClass : Class)]
+  
+[comment[if (aClass.hasStereotype('Bean'))/]
+[if (aClass.name <> 'LibraryItem' and aClass.attribute->notEmpty())]
+    [for (p : Property | aClass.attribute)]
+        [if (p.type.name.toString().contains('String'))]
+            import java.lang.String;
+        [else]
+            import java.lang.[p.type.name/]; 
+        [/if]
+    [/for]
+[/if]
+
+[file (aClass.name.concat('.java'), false)]
+// [protected ('imports')  ]
+// [/protected]
+
+public class [aClass.name.toUpperFirst()/] {
+
+    [if (aClass.generalization->notEmpty())]
+        extends [aClass.generalization.general.name /]
+    [/if]
+
+    [for (p : Property | aClass.attribute)]
+        private [p.type.name/] [p.name/]; 
+    [/for]
+
+    [for (p : Property | aClass.attribute)] 
+        public [p.type.name/] get[p.name.toUpperFirst()/]() {
+            return this.[p.name/];
+        }
+
+        public void set[p.name.toUpperFirst()/]([p.type.name/] [p.name/]) {
+             this.[p.name/] = [p.name/];
+        }
+    [/for]
+
+    [for (o : Operation | aClass.ownedOperation)]
+        public [o.type.name/] [o.name/]() {
+			// [protected (o.name)]
+            // TODO implement   
+			// [/protected]
+        }
+    [/for]
+
+} 
+[/file]
+[comment/if/]
+[/template]
