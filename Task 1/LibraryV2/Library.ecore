@@ -8,8 +8,8 @@
         lowerBound="1" eType="#//Librarian" containment="true" eOpposite="#//Librarian/libraryHeadLibrarian"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="staff" ordered="false"
         upperBound="-1" eType="#//Librarian" containment="true" eOpposite="#//Librarian/libraryStaff"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="patrons" ordered="false"
-        upperBound="-1" eType="#//Patron" containment="true" eOpposite="#//Patron/registeredLibrary"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="borrowers" ordered="false"
+        upperBound="-1" eType="#//Borrower" containment="true" eOpposite="#//Borrower/registeredLibrary"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="catalog" ordered="false"
         upperBound="-1" eType="#//Publication" containment="true"/>
   </eClassifiers>
@@ -22,11 +22,11 @@
         eType="#//Library" eOpposite="#//Library/staff"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Patron">
+  <eClassifiers xsi:type="ecore:EClass" name="Borrower">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false" unique="false"
         lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="registeredLibrary" ordered="false"
-        eType="#//Library" eOpposite="#//Library/patrons"/>
+        eType="#//Library" eOpposite="#//Library/borrowers"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="checkouts" ordered="false"
         upperBound="-1" eType="#//Publication" eOpposite="#//Publication/checkedOutBy"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
@@ -35,7 +35,7 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="title" ordered="false"
         unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="checkedOutBy" ordered="false"
-        upperBound="-1" eType="#//Patron" eOpposite="#//Patron/checkouts"/>
+        upperBound="-1" eType="#//Borrower" eOpposite="#//Borrower/checkouts"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
 </ecore:EPackage>

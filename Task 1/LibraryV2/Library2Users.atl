@@ -20,7 +20,7 @@ rule Librarian2Staff {
 
 rule Member2Customer {
 	from
-		m : Library!Patron
+		m : Library!Borrower
 	to 
 		t : Users!Customer (
 			fullName <- m.name,

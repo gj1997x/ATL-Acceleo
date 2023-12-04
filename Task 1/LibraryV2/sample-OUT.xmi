@@ -6,6 +6,7 @@
   <Staff fullName="Abdulla" id="178"/>
   <Customer fullName="Ali" id="167"/>
   <Customer fullName="Mohammed" id="244"/>
+  <Customer fullName="Ghanim Alsuwaidi" id="244"/>
   <Customer fullName="Mansour" id="255"/>
   <CatalogItem title="Learning Physics" isbn="ISBN1267"/>
   <CatalogItem title="Theory of Matrix" isbn="ISBN1119"/>

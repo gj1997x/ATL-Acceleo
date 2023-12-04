@@ -95,7 +95,7 @@
 		<constant value="17:4-17:14"/>
 		<constant value="link"/>
 		<constant value="__matchMember2Customer"/>
-		<constant value="Patron"/>
+		<constant value="Borrower"/>
 		<constant value="m"/>
 		<constant value="Customer"/>
 		<constant value="25:3-28:4"/>
