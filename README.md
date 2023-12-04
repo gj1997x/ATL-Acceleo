@@ -45,7 +45,7 @@ My scenario is about Library2Users such that the source model is Library and the
 
 ## Acceleo - Code Generation:
 
-This is one of the main tools in RM2pt that is used for code generation. Acceleo uses the MDE (Model Driven Engineering) principles for produce an efficient transformation of modela into JAVA code. It works very well with RM2PT by using different such as UML or EMF model into a range of textual languages like JAVA, C or Python. This feature makes it very efficient for developers that consider the idea of automate code generating.
+This is one of the main tools in RM2pt that is used for code generation. Acceleo uses the MDE (Model Driven Engineering) principles for produce an efficient transformation of models into JAVA code. It works very well with RM2PT by using different such as UML or EMF model into a range of textual languages like JAVA, C or Python. This feature makes it very efficient for developers that consider the idea of automate code generating.
 Furthermore, using Acceleo for code generation brings alot of benefits such as it significantly streamlines the development process. Code generation also enhances the consistency and minimizes any erros that could occur from human. Lastly, when considering a large scale model makes Acceleo very useful such that its not time consuming and can handle complex projects.
 
 ## Task 2:
