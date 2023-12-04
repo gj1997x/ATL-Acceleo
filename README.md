@@ -41,7 +41,8 @@ My scenario is about Library2Users such that the source model is Library and the
 
 |      sample-IN.xmi (Input)       |              sample-OUT.xmi (Output)                 |
 | ----------------- | ------------------------------------------------------------------ |
-| <img width="335" alt="Library Source Meta Model - 1" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/75208c2f-b86f-4247-9eeb-690e7bdf752c"> | <img width="241" alt="Library Target Meta Model - 2" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/5505d8a9-bac8-4910-b1cb-a49dfcf071bc">
+| <img width="446" alt="XMI in" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/4c38d9a6-7413-4c70-a0bc-5625ceae4532">| <img width="461" alt="XMI out" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/7ed04058-876a-46c4-afc1-e3529ea81651">
+
 
 ## Acceleo - Code Generation:
 
