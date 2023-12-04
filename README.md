@@ -65,8 +65,7 @@ In this task, my scenario was also about library system where I have provided th
 ### Generated Java Code:
 |      Book Class       |              LibraryItem Class                 |
 | ----------------- | ------------------------------------------------------------------ |
-|![Uploading Screenshot 2023-12-04 193029.png…]()
-| <img width="541" alt="JavaFile-GenerateMTL - 4" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/270e45f7-0343-4133-abb7-7be132f9f422">
+|<img width="423" alt="Screenshot 2023-12-04 193029" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/c2d3f1c1-bb26-40b7-a299-570740daec06">| <img width="541" alt="JavaFile-GenerateMTL - 4" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/270e45f7-0343-4133-abb7-7be132f9f422">
 
 ### User Code Block:
 |      generate.mtl File       |              JAVA generated code                 |
