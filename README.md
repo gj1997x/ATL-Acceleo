@@ -59,7 +59,7 @@ In this task, my scenario was also about library system where I have provided th
 
 ### Generation Code and Run Configuration - generate.mtl:
 
-<img width="626" alt="GenerateMTL-1" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/42b7b17c-3e90-4e77-b135-708ae63e84ed">
+<img width="443" alt="Screenshot 2023-12-04 210742" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/cbacbb8e-ced6-4955-9020-9b859984de5c">
 
 <img width="647" alt="RunConfig(GenerateMTL) - 2" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/f9086d6c-af7b-41e5-9b02-10419deb2a59">
 
