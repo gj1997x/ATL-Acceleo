@@ -410,7 +410,7 @@ public class UmlToBeans extends AbstractAcceleoGenerator {
          * Some metamodels require a very complex setup for standalone usage. For example, if you want to use a generator
          * targetting UML models in standalone, you NEED to use the following:
          */ 
-         UMLResourcesUtil.init(resourceSet);
+        // UMLResourcesUtil.init(resourceSet)
     }
     
 }

@@ -1,9 +1,10 @@
 // Start of user code imports
 // End of user code
 
-public class Book {
+public class Book 
 
         extends LibraryItem
+{
 
         private String isbn; 
         private String publisher; 

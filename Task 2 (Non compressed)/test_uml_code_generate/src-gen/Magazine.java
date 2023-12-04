@@ -1,9 +1,10 @@
 // Start of user code imports
 // End of user code
 
-public class Magazine {
+public class Magazine 
 
         extends LibraryItem
+{
 
 
 
