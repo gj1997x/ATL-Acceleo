@@ -1,4 +1,4 @@
-![image](https://github.com/gj1997x/ATL-Acceleo/assets/148683770/2e1a18b3-790b-449b-8140-800dae3148fb)# ATL-Acceleo
+# ATL-Acceleo
 By: Ghanim Alsuwaidi (厄尼姆)
 
 Student ID: LS2321206
