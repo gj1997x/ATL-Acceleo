@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ytF2oMmqEe2QbO8MM_YjeA" name="GJ's LibraryModel">
+  <packagedElement xmi:type="uml:Package" xmi:id="_CKe9EMmrEe2QbO8MM_YjeA" name="GJ's library">
+    <packagedElement xmi:type="uml:Package" xmi:id="_DwgngMmrEe2QbO8MM_YjeA" name="model">
+      <packagedElement xmi:type="uml:Enumeration" xmi:id="_J7ToEMmrEe2QbO8MM_YjeA" name="Genre">
+        <ownedLiteral xmi:id="_LTMaEMmrEe2QbO8MM_YjeA" name="Fiction"/>
+        <ownedLiteral xmi:id="_Luc00MmrEe2QbO8MM_YjeA" name="NonFiction"/>
+        <ownedLiteral xmi:id="_L2hFoMmrEe2QbO8MM_YjeA" name="Biography"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_OrUwgMmrEe2QbO8MM_YjeA" name="LibraryItem">
+        <ownedAttribute xmi:id="_VKv8EMmrEe2QbO8MM_YjeA" name="title" type="__GTnYMmrEe2QbO8MM_YjeA"/>
+        <ownedAttribute xmi:id="__BbOMMmrEe2QbO8MM_YjeA" name="libraryId" type="__GTnYMmrEe2QbO8MM_YjeA"/>
+        <ownedAttribute xmi:id="__nx6EMmrEe2QbO8MM_YjeA" name="genre" type="_J7ToEMmrEe2QbO8MM_YjeA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RGXpEMmrEe2QbO8MM_YjeA" name="Book">
+        <generalization xmi:id="_S3rTgMmrEe2QbO8MM_YjeA" general="_OrUwgMmrEe2QbO8MM_YjeA"/>
+        <ownedAttribute xmi:id="_UiWnQMmrEe2QbO8MM_YjeA" name="isbn" type="__GTnYMmrEe2QbO8MM_YjeA"/>
+        <ownedAttribute xmi:id="_U-hKgMmrEe2QbO8MM_YjeA" name="publisher" type="__GTnYMmrEe2QbO8MM_YjeA"/>
+        <ownedAttribute xmi:id="_VMgOoMmrEe2QbO8MM_YjeA" name="pageCount" type="__W-HoMmrEe2QbO8MM_YjeA"/>
+        <ownedOperation xmi:id="_l4-XYJAfEe61zrIveS7UIA" name="description">
+          <ownedParameter xmi:id="_l4-XYZAfEe61zrIveS7UIA" name="desc" type="__GTnYMmrEe2QbO8MM_YjeA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="__DWZMMmrEe2QbO8MM_YjeA" name="Video">
+        <generalization xmi:id="__N-ngMmrEe2QbO8MM_YjeA" general="_OrUwgMmrEe2QbO8MM_YjeA"/>
+        <ownedAttribute xmi:id="__VBYAMmrEe2QbO8MM_YjeA" name="runtime" type="__W-HoMmrEe2QbO8MM_YjeA"/>
+        <ownedAttribute xmi:id="__cOToMmrEe2QbO8MM_YjeA" name="director" type="__GTnYMmrEe2QbO8MM_YjeA"/>
+        <ownedOperation xmi:id="_q02GYJAdEe61zrIveS7UIA" name="duration">
+          <ownedParameter xmi:id="_tDpDwJAeEe61zrIveS7UIA" name="time" type="__GTnYMmrEe2QbO8MM_YjeA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="__1kPgMmrEe2QbO8MM_YjeA" name="Magazine">
+        <generalization xmi:id="__8ilMMmrEe2QbO8MM_YjeA" general="_OrUwgMmrEe2QbO8MM_YjeA"/>
+        <ownedOperation xmi:id="_1XTGkJAfEe61zrIveS7UIA" name="issue">
+          <ownedParameter xmi:id="_1XTGkZAfEe61zrIveS7UIA" name="currentIssue" type="__GTnYMmrEe2QbO8MM_YjeA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="__GTnYMmrEe2QbO8MM_YjeA" name="String"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="__W-HoMmrEe2QbO8MM_YjeA" name="Integer"/>
+</uml:Model>
