@@ -21,11 +21,11 @@
 // [protected ('imports')  ]
 // [/protected]
 
-public class [aClass.name.toUpperFirst()/] {
+public class [aClass.name.toUpperFirst()/] 
 
     [if (aClass.generalization->notEmpty())]
         extends [aClass.generalization.general.name /]
-    [/if]
+    [/if]{
 
     [for (p : Property | aClass.attribute)]
         private [p.type.name/] [p.name/]; 

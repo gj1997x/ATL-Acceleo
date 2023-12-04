@@ -1,9 +1,10 @@
 // Start of user code imports
 // End of user code
 
-public class Video {
+public class Video 
 
         extends LibraryItem
+{
 
         private Integer runtime; 
         private String director; 

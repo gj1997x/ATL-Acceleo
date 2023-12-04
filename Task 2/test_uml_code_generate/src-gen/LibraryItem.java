@@ -1,8 +1,9 @@
 // Start of user code imports
 // End of user code
 
-public class LibraryItem {
+public class LibraryItem 
 
+{
 
         private String title; 
         private String libraryId; 
