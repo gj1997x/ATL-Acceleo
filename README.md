@@ -32,7 +32,7 @@ My scenario is about Library2Users such that the source model is Library and the
 
 |      Library Meta Model (Source Model)       |                   Users Meta Model (Target Model)                              |
 | ----------------- | ------------------------------------------------------------------ |
-| <img width="335" alt="Library Source Meta Model - 1" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/75208c2f-b86f-4247-9eeb-690e7bdf752c"> | <img width="241" alt="Library Target Meta Model - 2" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/5505d8a9-bac8-4910-b1cb-a49dfcf071bc">
+| <img width="301" alt="Screenshot 2023-12-05 200956" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/562ec775-003b-46eb-8c5d-e85790b0d40c"> | <img width="241" alt="Library Target Meta Model - 2" src="https://github.com/gj1997x/ATL-Acceleo/assets/148683770/5505d8a9-bac8-4910-b1cb-a49dfcf071bc">
 
 ### ATL - Library2Users:
 
